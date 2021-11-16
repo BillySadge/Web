@@ -141,7 +141,6 @@ D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\scopedcs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\WEB_953502_Chaplinskiy.TagHelpers.input.cache
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\WEB_953502_Chaplinskiy.TagHelpers.output.cache
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\WEB_953502_Chaplinskiy.RazorCoreGenerate.cache
-D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -160,3 +159,10 @@ D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Vi
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\_UserPartial.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
