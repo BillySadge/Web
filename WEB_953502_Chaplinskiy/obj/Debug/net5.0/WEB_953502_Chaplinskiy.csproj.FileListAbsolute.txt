@@ -157,3 +157,6 @@ D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\ref\WEB_
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\WEB_953502_Chaplinskiy.pdb
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\WEB_953502_Chaplinskiy.genruntimeconfig.cache
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\_UserPartial.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
