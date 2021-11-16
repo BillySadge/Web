@@ -8,13 +8,21 @@
         <div class="dropdown-toggle" id="dropdownMenuButton"
              data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
-            <img src="~/images/Man.png" width="30" alt="User"
-                 class="rounded" />
+
+            <img src="@Url.Action("GetAvatar","Image")"
+                 width="30" alt="User"
+                 class="rounded bg-light" />
+
         </div>
+            @*<img src="~/images/Man.png" width="30" alt="User"
+                 class="rounded" />
+        </div>*@
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <div class="dropdown-item-text">
-                <img src="~/images/Man.png" width="50" alt="User"
-                     class="rounded" />
+                <img src="@Url.Action("GetAvatar","Image")"
+                     width="50" alt="User" class="rounded" />
+                @*<img src="~/images/Man.png" width="50" alt="User"
+        class="rounded" />*@
                 @User.Identity.Name
 
             </div>
