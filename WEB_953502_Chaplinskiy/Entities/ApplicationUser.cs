@@ -8,5 +8,6 @@ namespace WEB_953502_Chaplinskiy.Entities
 {
     public class ApplicationUser:IdentityUser
     {
+        public byte[] AvatarImage { get; set; }
     }
 }
