@@ -21,13 +21,20 @@ using WEB_953502_Chaplinskiy;
 #nullable disable
 #nullable restore
 #line 2 "D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\Views\_ViewImports.cshtml"
+using WEB_953502_Chaplinskiy.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\Views\_ViewImports.cshtml"
 using WEB_953502_Chaplinskiy.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"47bf1665d72f48fb6c264729047046c1e108b02d", @"/Views/Shared/Components/Cart/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6815758328d534f3c4669e41e73d32ac70529496", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7571d6225317d76fb26dade8b0125a290eb93355", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Cart_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cart", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -57,7 +64,7 @@ using WEB_953502_Chaplinskiy.Models;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47bf1665d72f48fb6c264729047046c1e108b02d4115", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47bf1665d72f48fb6c264729047046c1e108b02d4316", async() => {
                 WriteLiteral("\r\n\r\n    00,0 руб.(0)\r\n    <i class=\"fa fa-shopping-cart nav-color\"></i>\r\n");
             }
             );

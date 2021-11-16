@@ -21,13 +21,20 @@ using WEB_953502_Chaplinskiy;
 #nullable disable
 #nullable restore
 #line 2 "D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\Views\_ViewImports.cshtml"
+using WEB_953502_Chaplinskiy.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\Views\_ViewImports.cshtml"
 using WEB_953502_Chaplinskiy.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6815758328d534f3c4669e41e73d32ac70529496", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7571d6225317d76fb26dade8b0125a290eb93355", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

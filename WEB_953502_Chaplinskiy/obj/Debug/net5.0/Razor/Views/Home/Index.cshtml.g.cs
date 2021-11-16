@@ -21,13 +21,20 @@ using WEB_953502_Chaplinskiy;
 #nullable disable
 #nullable restore
 #line 2 "D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\Views\_ViewImports.cshtml"
+using WEB_953502_Chaplinskiy.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\Views\_ViewImports.cshtml"
 using WEB_953502_Chaplinskiy.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e098d9a65b7a626f11a38a8cfb5598925ba9d704", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6815758328d534f3c4669e41e73d32ac70529496", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7571d6225317d76fb26dade8b0125a290eb93355", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -68,7 +75,7 @@ using WEB_953502_Chaplinskiy.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>Hello World!</h1>\r\n\r\n<h2>Лабораторная работа 1</h2>\r\n<h3>Список</h3>\r\n<ol type=\"A\">\r\n    <li>Элемент 1 списка</li>\r\n    <li>Элемент 2 списка</li>\r\n</ol>\r\n<hr />\r\n\r\n\r\n\r\n<div class=\"container\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e098d9a65b7a626f11a38a8cfb5598925ba9d7044179", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e098d9a65b7a626f11a38a8cfb5598925ba9d7044380", async() => {
                 WriteLiteral(@"
         <h2>Форма</h2>
 
@@ -140,9 +147,9 @@ Write(ViewData["Text"]);
 #line hidden
 #nullable disable
             WriteLiteral("</h2>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e098d9a65b7a626f11a38a8cfb5598925ba9d7047472", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e098d9a65b7a626f11a38a8cfb5598925ba9d7047673", async() => {
                 WriteLiteral("\r\n    <h2>Форма</h2>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e098d9a65b7a626f11a38a8cfb5598925ba9d7047756", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e098d9a65b7a626f11a38a8cfb5598925ba9d7047957", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
