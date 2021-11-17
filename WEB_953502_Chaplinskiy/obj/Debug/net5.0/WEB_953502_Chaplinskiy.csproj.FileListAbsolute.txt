@@ -177,3 +177,11 @@ D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Ar
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Admin\Pages\_ViewImports.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Areas\Admin\Pages\_ViewStart.cshtml.g.cs
 D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.Extensions.Logging.File.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.Sinks.Async.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\bin\Debug\net5.0\Serilog.Sinks.RollingFile.dll

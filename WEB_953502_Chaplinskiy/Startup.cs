@@ -14,6 +14,11 @@ using System.Threading.Tasks;
 using WEB_953502_Chaplinskiy.Entities;
 
 using WEB_953502_Chaplinskiy.Data;
+using Microsoft.AspNetCore.Http;
+using WEB_953502_Chaplinskiy.Models;
+using WEB_953502_Chaplinskiy.Services;
+using Microsoft.Extensions.Logging;
+using WEB_953502_Chaplinskiy.Extensions;
 
 namespace WEB_953502_Chaplinskiy
 {
@@ -60,13 +65,25 @@ namespace WEB_953502_Chaplinskiy
             });
 
             services.AddAuthorization();
+
+
+            services.AddDistributedMemoryCache();
+            services.AddSession(opt =>
+            {
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.IsEssential = true;
+            });
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<Cart>(sp => CartService.GetCart(sp));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ApplicationDbContext context,
 UserManager<ApplicationUser> userManager,
-RoleManager<IdentityRole> roleManager)
+RoleManager<IdentityRole> roleManager, ILoggerFactory logger)
         {
+            logger.AddFile("Logs/log-{Date}.txt");
+            app.UseFileLogging();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -84,6 +101,7 @@ RoleManager<IdentityRole> roleManager)
             app.UseRouting();
 
             app.UseAuthentication();
+            app.UseSession();
             app.UseAuthorization();
             DbInitializer.Seed(context, userManager, roleManager).Wait();
             app.UseEndpoints(endpoints =>
@@ -93,6 +111,7 @@ RoleManager<IdentityRole> roleManager)
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+            
         }
     }
 }
