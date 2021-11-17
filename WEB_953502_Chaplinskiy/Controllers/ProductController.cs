@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WEB_953502_Chaplinskiy.Entities;
+using WEB_953502_Chaplinskiy.Models;
 
 namespace WEB_953502_Chaplinskiy.Controllers
 {
@@ -11,14 +12,25 @@ namespace WEB_953502_Chaplinskiy.Controllers
     {
         List<Dish> _dishes;
         List<DishGroup> _dishGroups;
+        int _pageSize;
         public ProductController()
         {
+            _pageSize = 3;
             SetupData();
         }
-        public IActionResult Index()
+        public IActionResult Index(int? group, int pageNo = 1)
         {
-            return View(_dishes);
+            var dishesFiltered = _dishes
+            .Where(d => !group.HasValue || d.DishGroupId == group.Value);
+            // Поместить список групп во ViewData
+            ViewData["Groups"] = _dishGroups;
+            // Получить id текущей группы и поместить в TempData
+            ViewData["CurrentGroup"] = group ?? 0;
+            return View(ListViewModel<Dish>.GetModel(dishesFiltered, pageNo,
+            _pageSize));
         }
+        
+        
         /// <summary>
         /// Инициализация списков
         /// </summary>

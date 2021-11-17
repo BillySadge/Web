@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WEB_953502_Chaplinskiy.Controllers
 {
@@ -12,6 +13,10 @@ namespace WEB_953502_Chaplinskiy.Controllers
         public int ListItemValue { get; set; }
         public string ListItemText { get; set; }
     }
+
+
+    [Authorize]
+
     public class Home : Controller
     {
 
@@ -25,6 +30,8 @@ namespace WEB_953502_Chaplinskiy.Controllers
         };
         }
         private List<ListDemo> _listDemo;
+
+
         public IActionResult Index()
         {
             ViewData["Text"] = "Лабораторная работа 2";
