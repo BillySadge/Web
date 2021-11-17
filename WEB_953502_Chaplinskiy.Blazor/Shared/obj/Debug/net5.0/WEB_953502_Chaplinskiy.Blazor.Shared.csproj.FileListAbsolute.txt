@@ -1,0 +1,12 @@
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\bin\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.deps.json
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\bin\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\bin\Debug\net5.0\ref\WEB_953502_Chaplinskiy.Blazor.Shared.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\bin\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.pdb
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.csproj.AssemblyReference.cache
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.AssemblyInfoInputs.cache
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.AssemblyInfo.cs
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.csproj.CoreCompileInputs.cache
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\ref\WEB_953502_Chaplinskiy.Blazor.Shared.dll
+D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Shared\obj\Debug\net5.0\WEB_953502_Chaplinskiy.Blazor.Shared.pdb

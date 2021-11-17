@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_953502_Chaplinskiy", "WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.csproj", "{FDDB30E7-FA5C-44F1-9830-501CA8303C88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_953502_Chaplinskiy", "WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.csproj", "{FDDB30E7-FA5C-44F1-9830-501CA8303C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_953502_Chaplinskiy.Blazor.Server", "WEB_953502_Chaplinskiy.Blazor\Server\WEB_953502_Chaplinskiy.Blazor.Server.csproj", "{3D4AA365-74B2-4E2A-BF57-2D0EBDCE54F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_953502_Chaplinskiy.Blazor.Client", "WEB_953502_Chaplinskiy.Blazor\Client\WEB_953502_Chaplinskiy.Blazor.Client.csproj", "{9D448ED9-948D-4304-8021-458E2BC55D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_953502_Chaplinskiy.Blazor.Shared", "WEB_953502_Chaplinskiy.Blazor\Shared\WEB_953502_Chaplinskiy.Blazor.Shared.csproj", "{B06CD345-66CF-4C83-92C9-1DCA6095D4A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FDDB30E7-FA5C-44F1-9830-501CA8303C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDDB30E7-FA5C-44F1-9830-501CA8303C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDDB30E7-FA5C-44F1-9830-501CA8303C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4AA365-74B2-4E2A-BF57-2D0EBDCE54F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4AA365-74B2-4E2A-BF57-2D0EBDCE54F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4AA365-74B2-4E2A-BF57-2D0EBDCE54F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4AA365-74B2-4E2A-BF57-2D0EBDCE54F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D448ED9-948D-4304-8021-458E2BC55D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D448ED9-948D-4304-8021-458E2BC55D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D448ED9-948D-4304-8021-458E2BC55D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D448ED9-948D-4304-8021-458E2BC55D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06CD345-66CF-4C83-92C9-1DCA6095D4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06CD345-66CF-4C83-92C9-1DCA6095D4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06CD345-66CF-4C83-92C9-1DCA6095D4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06CD345-66CF-4C83-92C9-1DCA6095D4A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

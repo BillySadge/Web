@@ -1,0 +1,7 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy.Blazor\Client\wwwroot\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\andre\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.12\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/WEB_953502_Chaplinskiy" Path="D:\Bsuir\WEB_953502_Chaplinskiy\WEB_953502_Chaplinskiy\wwwroot\" />
+</StaticWebAssets>

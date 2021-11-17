@@ -25,7 +25,7 @@ namespace WEB_953502_Chaplinskiy
                 .ConfigureLogging(lp =>
                 {
                     lp.ClearProviders();
-                    lp.AddFilter("Microsoft", LogLevel.None);
+                    lp.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.None);
 
                 });
 

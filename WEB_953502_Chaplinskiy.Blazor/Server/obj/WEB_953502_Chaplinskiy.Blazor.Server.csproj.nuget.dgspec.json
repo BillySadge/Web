@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Server\\WEB_953502_Chaplinskiy.Blazor.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Client\\WEB_953502_Chaplinskiy.Blazor.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Client\\WEB_953502_Chaplinskiy.Blazor.Client.csproj",
+        "projectName": "WEB_953502_Chaplinskiy.Blazor.Client",
+        "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Client\\WEB_953502_Chaplinskiy.Blazor.Client.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj": {
+                "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.10, 5.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Server\\WEB_953502_Chaplinskiy.Blazor.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Server\\WEB_953502_Chaplinskiy.Blazor.Server.csproj",
+        "projectName": "WEB_953502_Chaplinskiy.Blazor.Server",
+        "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Server\\WEB_953502_Chaplinskiy.Blazor.Server.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Client\\WEB_953502_Chaplinskiy.Blazor.Client.csproj": {
+                "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Client\\WEB_953502_Chaplinskiy.Blazor.Client.csproj"
+              },
+              "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj": {
+                "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj"
+              },
+              "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.csproj": {
+                "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj",
+        "projectName": "WEB_953502_Chaplinskiy.Blazor.Shared",
+        "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\WEB_953502_Chaplinskiy.Blazor.Shared.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.Blazor\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.csproj",
+        "projectName": "WEB_953502_Chaplinskiy",
+        "projectPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "D:\\Bsuir\\WEB_953502_Chaplinskiy\\WEB_953502_Chaplinskiy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
