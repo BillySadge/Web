@@ -37,7 +37,7 @@ namespace WEB_953502_Chaplinskiy.Areas.Admin.Pages
             {
                 return NotFound();
             }
-           ViewData["DishGroupId"] = new SelectList(_context.DishGroups, "DishGroupId", "DishGroupId");
+           ViewData["DishGroupId"] = new SelectList(_context.DishGroups, "DishGroupId", "GroupName");
             return Page();
         }
 
